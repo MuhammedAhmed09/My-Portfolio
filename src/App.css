@@ -1,0 +1,149 @@
+@import "tailwindcss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.nav, .about, .contact {
+  padding: 50px;
+}
+
+/* Nav */
+
+.active, ul li a {
+  transition: .4s;
+}
+
+.active, ul li a:hover { 
+  color: #80ed99;
+}
+
+.bars {
+  display: none;
+}
+
+.sideNav {
+  width: 200px;
+  background-color: #212529;
+  color: #fff;
+  padding: 0 2%;
+  position: relative;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+ul li a {
+  display: block;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 2px ;
+  align-items: center;
+}
+
+ul li hr {
+  color: #343a40;
+}
+
+ul li p{
+  display: inline-block;
+  margin: 0 3px;
+  font: 700;
+}
+
+.nav button {
+  margin-top: 9px;
+  padding: 3px 8px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.nav p {
+  margin-top: 7px;
+}
+
+@media (max-width: 600px) {
+  .hide {
+    display: none;
+  }
+
+  .bars {
+    display: block;
+  }
+}
+
+
+.side-image img {
+  padding: 30px;
+}
+
+/* About-bage */
+.about p {
+  margin-top: 7px;
+}
+
+
+.details-about {
+  width: 100%;
+  padding: 0 2%;
+}
+
+.table-about hr {
+  color: #626a72;
+  position: relative;
+  width: 80%;
+  margin: 10px 0;
+  border-radius: 50%;
+}
+
+.table-about {
+  margin: 25px 0;
+}
+
+.progress-bars li {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 20px;
+  color: #80ed99;
+}
+
+.progress-bars hr {
+  position: relative;
+  height: 7px;
+  color: #343a40;
+  border-radius: 50px;
+  background-color: #212529;
+}
+
+.progress-bars hr::after {
+  content: "";
+  height: 7px;
+  background-color: #80ed99;
+  border-radius: 50px;
+  position: absolute;
+}
+
+/* contact */
+.contact {
+  width: 100%;
+}
+
+.contact .side-contact {
+  max-width: 20%;
+}
+
+.contact i {
+  color: #80ed99;
+  font-size: xx-large;
+  margin: 40px 0 10px;
+}
+
+.contact b {
+  color: #80ed99;
+}
