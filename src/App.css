@@ -147,3 +147,34 @@ ul li p{
 .contact b {
   color: #80ed99;
 }
+
+
+@media (max-width: 768px) {
+  .contact form .personal-input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact form .personal-input .input-1 {
+    margin-right: 0;
+  }
+}
+
+.contact form .personal-input .input-1 {
+  margin-right: 5px;
+}
+
+.contact form .personal-input input, .contact form textarea {
+  background-color: #212529;
+  color: #626a72;
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 3px 9px;
+}
+.contact form .submit {
+  background-color: #2d9445;
+  padding: 3px 9px;
+  border-radius: 5px;
+  cursor: pointer;
+}
