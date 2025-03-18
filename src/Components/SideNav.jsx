@@ -10,8 +10,7 @@ const SideNav = () => {
     const Links = [
         { id: 1, icon: <MdHome />, page: "Home", path: "/" },
         { id: 2, icon: <FaUser />, page: "About Me", path: "/about" },
-        { id: 4, icon: <FaBarsStaggered />, page: "Services", path: "/service" },
-        { id: 5, icon: <FaPhotoFilm />, page: "Gallery", path: "/gallery" },
+        { id: 4, icon: <FaBarsStaggered />, page: "C.V", path: "/my-cv" },        
         { id: 3, icon: <AiFillMessage />, page: "Contact Me", path: "/contact" },
       ];
     
