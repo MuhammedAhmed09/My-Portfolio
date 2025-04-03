@@ -41,7 +41,7 @@ const Contact = () => {
 
   return (
     <div className='contact'>
-      <p className='text-2xl font-bold text-[#80ed99]'>Contact Me</p>
+      <p className='text-2xl place-self-center p-contact font-bold text-[#80ed99]'>Contact Me</p>
       <div className='grid md:grid-cols-2'>
         <div className='md:w-2/3 flex flex-col items-center'>
           <i><FaPhone /></i>
@@ -55,17 +55,17 @@ const Contact = () => {
           <p className='text-sm'>muhammedahmedragab@gmail.com</p>
           <i><FaGlobe /></i>
           <b>Website</b>
-          <p className='text-sm'><a href="https://muhammed-ahmed.vercel.app/">My Portfolio</a></p>
+          <p className='text-sm'><a href="https://muhammed-ahmed.vercel.app/" target="_blank">My Portfolio</a></p>
         </div>
         <div>
 
           <div className='grid md:grid-cols-2 gap-4 xl:gap-x-30 justify-center'>
             <div>
               <ul className='flex justify-around bg-[#212529] rounded-3xl'>
-                <li><a href="https://github.com/MuhammedAhmed09"><FaGithub /></a></li>
-                <li><a href="https://www.facebook.com/19muhammad19"><FaFacebook /></a></li>
-                <li><a href="https://www.instagram.com/b7r090/"><RiInstagramFill /></a></li>
-                <li><a href="https://muhammed-ahmed.vercel.app/"><FaGlobe /></a></li>
+                <li><a href="https://github.com/MuhammedAhmed09" target="_blank"><FaGithub /></a></li>
+                <li><a href="https://www.facebook.com/19muhammad19" target="_blank"><FaFacebook /></a></li>
+                <li><a href="https://www.instagram.com/b7r090/" target="_blank"><RiInstagramFill /></a></li>
+                <li><a href="https://muhammed-ahmed.vercel.app/" target="_blank"><FaGlobe /></a></li>
               </ul>
             </div>
             <div>
@@ -80,7 +80,7 @@ const Contact = () => {
                 <input className='input-2' placeholder='E-mail' name='email' type='text' required/>
               </div>
               <div>
-                <textarea className='w-[100%]' name='message' required/>
+                <textarea className='w-[100%] min-h-80' name='message' required/>
               </div>
               <div>
                <input className='submit' type='submit'/>
