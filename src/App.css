@@ -33,6 +33,11 @@ body {
   display: none;
 }
 
+.bars .barIcons {
+  font-size: 22px;
+  padding: 15px;
+}
+
 .sideNav {
   width: 200px;
   height: 100vh;
@@ -80,7 +85,7 @@ ul li p{
   }
 
   .bars {
-    display: block;
+    display: flex;
     position: fixed;
     z-index: 1000;
   }

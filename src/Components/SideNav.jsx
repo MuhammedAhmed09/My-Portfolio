@@ -30,7 +30,9 @@ const SideNav = () => {
           </ul>
         </div> 
         <div className='bars'>
-          {!isOpen ? (<i onClick={() => setIsOpen(true)} ><FaBars /></i>) : (<i onClick={() => setIsOpen(false)} ><IoMdClose style={{position: 'relative', fontWeight: 'bold', fontSize: '20px', }}/></i>)}
+          <p className='barIcons'>
+            {!isOpen ? (<FaBars onClick={() => setIsOpen(true)} />) : (<IoMdClose onClick={() => setIsOpen(false)}/>)}
+          </p>
         </div>
         </>
       )
