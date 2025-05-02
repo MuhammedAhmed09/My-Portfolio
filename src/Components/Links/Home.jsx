@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <div className='nav w-full grid md:grid-cols-2 gap-8 items-center text-left'>
+    <section className='nav w-full grid md:grid-cols-2 gap-8 items-center text-left'>
       <div>
         <p className='font-bold text-2xl'>Hi! I'm <span className='text-[#80ed99]'>Muhammed</span>,</p>
         <p className='font-bold'>A <span className='text-[#80ed99]'>Front-End Developer</span></p>
@@ -23,7 +23,7 @@ const Home = () => {
           <hr className='w-[10px] h-[120px] rounded-bl-sm bg-[#80ed99] border-none rounded-br-sm'/>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

@@ -40,7 +40,7 @@ const Contact = () => {
 
 
   return (
-    <div className='contact'>
+    <section className='contact'>
       <p className='text-2xl place-self-center p-contact font-bold text-[#80ed99]'>Contact Me</p>
       <div className='grid md:grid-cols-2'>
         <div className='md:w-2/3 flex flex-col items-center'>
@@ -89,7 +89,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

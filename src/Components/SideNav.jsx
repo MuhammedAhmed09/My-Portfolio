@@ -16,19 +16,23 @@ const SideNav = () => {
     
       const [selectIndex, setSelectIndex] = useState(0);
       const [isOpen, setIsOpen] = useState(false);
+
+      
     
       return (
-        <div className='sideNav'>
-            <div className='bars'>
-            {!isOpen ? (<i onClick={() => setIsOpen(true)}><FaBars /></i>) : (<i onClick={() => setIsOpen(false)}><IoMdClose /></i>)}
-            </div>
-            {Links.length === 0 && <p>Nav not found</p>}
-            <ul className={isOpen ? "show" : "hide"}>
-                {Links.map((link, index) => 
-                <li key={link.id}><Link className={selectIndex === index ? "active" : ""} onClick={() => setSelectIndex(index)} to={link.path} ><p>{link.icon}</p><p>{link.page}</p> </Link> <hr /></li>
-                )}
-            </ul>
+        <>
+        <div className= {isOpen? 'openSideNav' : 'sideNav'}>
+          {Links.length === 0 && <p>Nav not found</p>}
+          <ul className={isOpen ? "show" : "hide"}>
+              {Links.map((link, index) => 
+              <li key={link.id}><Link className={selectIndex === index ? "active" : ""} onClick={() => setSelectIndex(index)} to={link.path} ><p>{link.icon}</p><p>{link.page}</p> </Link> <hr /></li>
+              )}
+          </ul>
+        </div> 
+        <div className='bars'>
+          {!isOpen ? (<i onClick={() => setIsOpen(true)} ><FaBars /></i>) : (<i onClick={() => setIsOpen(false)} ><IoMdClose style={{position: 'relative', fontWeight: 'bold', fontSize: '20px', }}/></i>)}
         </div>
+        </>
       )
     }
 

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
-    <div className='about w-full grid items-center text-left '>
+    <section className='about w-full grid items-center text-left '>
       <div>
         <p className='text-2xl font-bold text-[#80ed99]'>About Me</p>
         <p className='font-bold'>I'm <span className='text-[#80ed99]'>Muhammed</span>, A <span className='text-[#80ed99]'>Front-End Developer</span></p>
@@ -34,7 +34,7 @@ const About = () => {
           </ul>
         </div>  
       </div>
-    </div>
+    </section>
   )
 }
 
