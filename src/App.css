@@ -20,7 +20,6 @@ body {
 }
 
 /* Nav */
-
 .active, ul li a {
   transition: .4s;
 }
