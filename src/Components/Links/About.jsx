@@ -13,7 +13,7 @@ const About = () => {
         <div className='table-about grid sm:grid-cols-2'>
           <ul>
             <li className='text-sm'><span className='text-[#80ed99] font-semibold'>Experiance</span>: 3+ Years</li> <hr/>
-            <li className='text-sm'><span className='text-[#80ed99] font-semibold'>Avability</span>: 20/7</li> <hr/>
+            <li className='text-sm'><span className='text-[#80ed99] font-semibold'>Avability</span>: 24/7</li> <hr/>
             <li className='text-sm'><span className='text-[#80ed99] font-semibold'>Age</span>: 20 </li> <hr/>
             <li className='text-sm'><span className='text-[#80ed99] font-semibold'>Language Used</span>: HTMl & JSX</li> <hr/>
           </ul>  

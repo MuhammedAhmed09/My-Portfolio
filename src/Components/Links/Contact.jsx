@@ -55,7 +55,7 @@ const Contact = () => {
           <p className='text-sm'>muhammedahmedragab@gmail.com</p>
           <i><FaGlobe /></i>
           <b>Website</b>
-          <p className='text-sm'><a href="https://muhammed-ahmed.vercel.app/" target="_blank">My Portfolio</a></p>
+          <p className='text-sm'><a href="https://muhammad-ahmad-xi.vercel.app/" target="_blank">My Portfolio</a></p>
         </div>
         <div>
 
@@ -65,7 +65,7 @@ const Contact = () => {
                 <li><a href="https://github.com/MuhammedAhmed09" target="_blank"><FaGithub /></a></li>
                 <li><a href="https://www.facebook.com/19muhammad19" target="_blank"><FaFacebook /></a></li>
                 <li><a href="https://www.instagram.com/b7r090/" target="_blank"><RiInstagramFill /></a></li>
-                <li><a href="https://muhammed-ahmed.vercel.app/" target="_blank"><FaGlobe /></a></li>
+                <li><a href="https://muhammad-ahmad-xi.vercel.app/" target="_blank"><FaGlobe /></a></li>
               </ul>
             </div>
             <div>
